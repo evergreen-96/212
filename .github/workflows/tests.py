@@ -14,4 +14,5 @@ class TestCase(unittest.TestCase):
         self.assertEqual(200, get_status('https://www.google.com/'))
 
 if __name__ == '__main__':
-    TestCase.testCode()
+    tests = TestCase()
+    tests.testCode()
