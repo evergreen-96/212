@@ -28,3 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a Python script
         run: python .github/workflows/tests.py
+        continue-on-error: false
