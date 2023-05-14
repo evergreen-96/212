@@ -12,3 +12,6 @@ def get_status(url):
 class TestCase(unittest.TestCase):
     def testCode(self):
         self.assertEqual(200, get_status('https://www.google.com/'))
+
+if __name__ == '__main__':
+    TestCase.testCode()
